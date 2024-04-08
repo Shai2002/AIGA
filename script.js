@@ -11,7 +11,7 @@ function changeColor() {
       nameInput.value = "";
 
       // Redirect to the second page with parameters
-      var url = "التهنئة 2.html" + "?name=" + encodeURIComponent(name) + "&color=" + encodeURIComponent(color);
+      var url = "index2.html" + "?name=" + encodeURIComponent(name) + "&color=" + encodeURIComponent(color);
       window.location.href = url;
   }
 }
